@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30 day challenge</title>
+  </head>
+  <body>
+    <h1>Inputs In HTML....</h1>
+    <main>
+      <section>
+        <div>
+        <h3>Enter Your Name:</h3>
+        <form action="demo.php">
+          <input type="text" placeholder="Enter your name" /><br />
+          <div>
+            <h3>Select Your Gender</h3>
+            <label for="gendermale">
+              <input
+                type="radio"
+                name="gender"
+                value="Gender male"
+                id="gendermale"
+              />Male
+            </label>
+            <label for="genderfemale">
+              <input
+                type="radio"
+                name="gender"
+                value="Gender female"
+                id="genderfemale"
+              />Female
+            </label>
+            <label for="genderother">
+              <input
+                type="radio"
+                name="gender"
+                value="Gender Other"
+                id="genderother"
+              />Other
+            </label>
+          </div>
+          <div>
+            <h3>Select Your Subjects</h3>
+            <label for="subeng">
+              <input type="checkbox" name="subjects" id="subeng" />English
+            </label>
+            <label for="subpro">
+              <input type="checkbox" name="subjects" id="subpro" />Programming
+            </label>
+            <label for="subnet">
+              <input type="checkbox" name="subjects" id="subnet" />Networking
+            </label>
+            <label for="subdat">
+              <input type="checkbox" name="subjects" id="subdat" />Database
+            </label>
+            <label for="subsci">
+              <input type="checkbox" name="subjects" id="subsci" />Scientific
+            </label>
+          </div>
+          <div>
+            <h3>Select Your Country</h3>
+            <select name="country" id="Country">
+              <option value="conind">India</option>
+              <option value="coname">America</option>
+              <option value="coneng">England</option>
+              <option value="conchi">China</option>
+            </select>
+          </div>
+          <div>
+            <label for="birthdate"
+              ><h3>Select Your birthdate :</h3>
+              <input type="date" name="birth" id="birthdate" />
+            </label>
+          </div>
+          <div>
+            <label for="emailaddress"
+              ><h3>Enter Your Email Id :</h3>
+              <input type="email" name="email" id="emailaddress" />
+            </label>
+          </div>
+        </form>
+    </div>
+    <div>
+        <h3>Describe Yourself..!!</h3>
+        <label for="describe">
+          <textarea
+            name="describe"
+            id="describe"
+            cols="30"
+            rows="10"
+            placeholder="Tell's Something unique about yourself."
+          ></textarea>
+        </label>
+      </div>
+    <div>
+      <h3>Button Input</h3>
+        <input type="button" value="Submit">
+    </div>
+      </section>
+    </main>
+  </body>
+</html>
