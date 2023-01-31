@@ -1,0 +1,32 @@
+
+.democlass{
+    color: rgba(191, 26, 54, 0.6);
+}
+#demoid2{
+    color: #f25028;
+}
+
+
+
+#demoid{
+    color: aqua;
+}
+/* 
+
+    Here we create a two selectors in the HTML code to be use the first priority
+    goes with 1] ID selectors
+                2] CLASS selectors 
+                    3] TAG selectors    
+*/
+
+
+h3{
+    color: rgb(67, 47, 157);
+}
+
+/* 
+    The color is also used in the form of their name,
+    their rgb( Red, Green, Blue) priority combination,
+    their hsl (highlight, saturation , light),
+    hex code #fff used for white as like
+*/
