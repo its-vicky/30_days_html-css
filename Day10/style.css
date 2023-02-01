@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(wall.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+    font-family: sans-serif;
+}
+.highlight
+{
+    margin: 10px;
+    width: 300px;
+    height:100px;
+    padding:20px;
+    float: left;
+}
+.paragraph
+{
+    margin: 10px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    padding: 20px;
+    color: pink;
+    border: 1px solid white;
+}
