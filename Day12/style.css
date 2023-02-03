@@ -1,0 +1,95 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+}
+.links a{
+    font-size: 40px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.links a:hover{
+    font-size: 42px;
+    text-decoration: none;
+    color: rgb(127, 197, 14);
+}
+
+
+.links a:active{
+    font-size: 41px;
+    text-decoration: none;
+    color: rgb(223, 44, 44);
+}
+
+.links img{
+    width: 200px;
+}
+
+.links1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.links1 a{
+    font-size: 40px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.links1 a:hover{
+    font-size: 42px;
+    text-decoration: none;
+    color: rgb(127, 197, 14);
+}
+
+
+.links1 a:active{
+    font-size: 41px;
+    text-decoration: none;
+    color: rgb(223, 44, 44);
+}
+
+.links1 img{
+    width: 200px;
+}
+
+
+.links2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120vh;
+}
+
+.links2 a{
+    font-size: 40px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.links2 a:hover{
+    font-size: 42px;
+    text-decoration: none;
+    color: rgb(127, 197, 14);
+}
+
+
+.links2 a:active{
+    font-size: 41px;
+    text-decoration: none;
+    color: rgb(223, 44, 44);
+}
+.links2 img{
+    width: 200px;
+}
+
