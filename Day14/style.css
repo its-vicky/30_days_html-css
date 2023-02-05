@@ -1,0 +1,65 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.main{
+    border: 2px solid black;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cursur1{
+    color: rgb(82, 136, 228);
+    cursor: pointer;
+    background-color: rebeccapurple;
+}
+
+.cursur2{
+    color: rgba(234, 25, 25, 0.823);
+    cursor: all-scroll;
+    background-color: black;
+}
+
+.cursur3{
+    color: orangered;
+    cursor: e-resize;
+    background-color: aqua;
+}
+
+.cursur4{
+    color: rgb(69, 196, 50);
+    cursor: s-resize;
+    background-color: orangered;
+}
+
+.cursur5{
+    color: rgb(244, 244, 10);
+    cursor: alias;
+    background-color: chocolate;
+}
+
+.cursur6{
+    color: rgb(51, 0, 255);
+    cursor: not-allowed;
+    background-color: yellow;
+}
+
+.cursur7{
+    color: rgb(198, 40, 116);
+    cursor: crosshair;
+    background-color: goldenrod;
+}
+
+.cursur8{
+    color: rgb(9, 137, 216);
+    cursor: context-menu;
+    background-color: navy;
+}
+
+.cursur9{
+    color: rgb(124, 223, 33);
+    cursor: copy;
+    background-color: orange;
+}
