@@ -1,0 +1,12 @@
+.box{
+    height: 50px;
+    width: 400px;
+    background-color: yellowgreen;
+    border: 2px solid red;
+    margin: 100px;
+    padding: 50px;
+    box-shadow:10px 20px 5px gray;
+}
+.box p{
+    opacity: 0.5;
+}
