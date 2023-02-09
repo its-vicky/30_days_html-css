@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: chocolate;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 30px;
+}
+#logo{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+}
+nav span{
+    font-size: 25px;
+    color: rgb(101, 42, 0);
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: rgb(114, 48, 0);
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: rgba(227, 139, 77, 0.6);
+}
+
+.fonts h2{
+    font-size: 6    0px;
+    color:rgb(245, 121, 5);
+}
+.classes {
+    display: flex;
+    border: 1px solid chocolate;
+    background-color:rgba(227, 139, 77, 0.4) ;
+}
+.classes .boxes1{
+    border: 2px solid chocolate;
+}
+.classes .boxes2{
+    border: 2px solid chocolate;
+}
+.classes .boxes3{
+    border: 2px solid chocolate;
+}
+.classes .boxes4{
+    border: 2px solid chocolate;
+}
+.classes .boxes5{
+    border: 2px solid chocolate;
+}
