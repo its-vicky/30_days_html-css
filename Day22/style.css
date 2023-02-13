@@ -1,0 +1,94 @@
+ *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        .navigation{
+            background-color: rgb(60,36,20);
+        }
+        nav{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul li{
+            padding-right: 1vw;
+            margin: 1vh 2vw;
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+        a:hover{
+            font-weight: 500;
+            color: #d2691e;
+        }
+        #logo{
+            font-size: 40px;
+            padding-left: 20px;
+            color: white;
+            cursor: pointer;
+        }
+        #logo span{
+            font-size: 25px;
+            color: #d2691e;
+        }
+        /* .parent{
+            position:relative;
+        }
+        .child{
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background-color: black;
+            margin:10px 15px;
+            background-repeat: no-repeat;
+            background-image: url("picture.jpg");
+            background-size: 300px 200px;
+            border-radius: 10px 20px;
+        }
+        .child::after{
+                content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo optio ducimus quis error, amet a velit consectetur sequi molestiae vel, inventore magnam in placeat hic dolore iste voluptatem vitae ut, porro nulla fugiat tempora! Odio distinctio nostrum alias corporis. Ex harum accusamus sint incidunt dolore minus iure totam ullam saepe numquam nobis non rerum aspernatur aperiam unde est corporis asperiores, voluptatem qui delectus quia molestiae quo. Voluptates molestias voluptate nemo illo. Nam cupiditate, earum iste vel laboriosam quo maxime sunt nostrum quas tempore, maiores sint odio cumque voluptas facilis possimus inventore sit alias. Unde dolor voluptatum eum veritatis aspernatur nemo.';
+                color: rgb(60,36,20);
+                width: 500px;
+                height: 200px;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                left: 350px;
+                top:0px;
+        }
+        .paragraph{
+            padding:0px 20px;
+            color: rgb(60,36,20);
+        } */
+        .monitor{
+            position: relative;
+        }
+        .paragraph{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image{
+            padding: 10px;
+            width: 300px;
+            height: 220px;
+            border-radius: 20px;
+        }
+        .paragraph p{
+            color:rgb(60,36,20);
+            font-size: 18px;
+            padding: 10px;
+        }
+        .next{
+            margin: 10px;
+            font-family: sans-serif;
+        }
+
