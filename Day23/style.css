@@ -1,0 +1,50 @@
+*{
+            margin: 0;
+            padding: 5px 0px 5px 0px;
+        }
+        body {
+            background-image: url(fantasy.jpg);
+            background-repeat: no-repeat;
+            background-position: content;
+            background-size: 100vw 100vh;
+            font-family:Arial, Helvetica, sans-serif;
+            background-attachment: fixed;
+            
+            
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid rgba(255, 255, 255,0.2);
+            background-color: rgba(255, 255, 255,0.2);
+            /* padding: 3px; */
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            margin: 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-variant: small-caps;
+        }
+        .logo{
+            font-size: 35px;
+            padding-left: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-variant: small-caps;
+            color:white;
+        }
+        .highlight{
+            display: flex;
+            align-items:center;
+            justify-content:center;
+            min-height: 50vh;
+            color: white;
+        }
+        .highlight  p span{
+            font-family:sans-serif;
+            font-size: 40px;
+        }
