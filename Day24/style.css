@@ -1,0 +1,21 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: grey;
+            width: auto;
+            height: 80vh;
+            margin: 0px 150px;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            overflow: auto;
+        }
+        .item{
+            background-color: black;
+            height: 100px;
+            flex: 1 0 100px;
+            color: white;
+        }
