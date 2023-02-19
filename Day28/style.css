@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    padding: 10px 30px;
+    position: relative;
+    cursor: pointer;
+    border: 3px solid orange;
+    border-radius: 10px;
+    background-color: transparent;
+    z-index: 1
+}
+
+button::before {
+    content: '';
+    height: 105%;
+    width: 0%;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    transition: all ease 0.5s;
+    z-index: -1;
+}
+
+button:hover::before{
+    width: 104%;
+}
