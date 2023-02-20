@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.music
+{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.music .bar
+{
+    width: 12px;
+    background-color: white;
+    border-radius: 10px;
+    animation: movement 1.5s ease-in-out infinite;
+}
+
+@keyframes movement
+{
+    0%, 100%
+    {
+        height: 2px;
+    }
+    50%
+    {
+        height: 80px;
+    }
+}
+
+.music .bar:nth-child(1)
+{
+    background-color: red;
+    animation-delay: 1s;
+}
+.music .bar:nth-child(2)
+{
+    background-color: blue;
+    animation-delay: -0.9s;
+}
+.music .bar:nth-child(3)
+{
+    background-color: green;
+    animation-delay: -0.8s;
+}
+.music .bar:nth-child(4)
+{
+    background-color: yellow;
+    animation-delay: -0.7s;
+}
+.music .bar:nth-child(5)
+{
+    background-color: black;
+    animation-delay: -0.6s;
+}
+.music .bar:nth-child(6)
+{
+    background-color: pink;
+    animation-delay: -0.5s;
+}
+.music .bar:nth-child(7)
+{
+    background-color: orange;
+    animation-delay: -0.4s;
+}
+.music .bar:nth-child(8)
+{
+    background-color: peachpuff;
+    animation-delay: -0.3s;
+}
+.music .bar:nth-child(9)
+{
+    background-color: purple;
+    animation-delay: -0.2s;
+}
+.music .bar:nth-child(10)
+{
+    background-color: greenyellow;
+    animation-delay: -0.1s;
+}
+
+.content
+{
+    font-family: sans-serif;
+    font-size: 1ren;;
+    
+    
+}
